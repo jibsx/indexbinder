@@ -2,7 +2,7 @@ import torch
 from PIL import Image
 from transformers import AutoProcessor, SiglipModel
 import numpy as np
-from indexing import BaseIndexer
+from indexbinder.indexing import BaseIndexer
 import faiss
 import hashlib
 
